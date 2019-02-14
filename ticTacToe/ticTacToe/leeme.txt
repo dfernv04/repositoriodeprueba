@@ -1,0 +1,13 @@
+1	Compilar: diego@diego-VirtualBox:~/Descargas/ticTacToe/ticTacToe$ javac -d ./classes/ ./src/*.java
+
+2	Generar documentacion: diego@diego-VirtualBox:~/Descargas/ticTacToe/ticTacToe$ javadoc -d ./doc -author -version -private -linksource ./src/*.java
+
+3	Ejecutar: diego@diego-VirtualBox:~/Descargas/ticTacToe/ticTacToe$ java -classpath ./classes MainTicTacToe 
+
+5	Compilar desde el directorio:diego@diego-VirtualBox:~/Descargas/ticTacToe/ticTacToe$ javac -d ./classes/ ./src/es/unileon/prg1/ticTacToe/*.java
+
+6	Generar documentacion desde el directorio:diego@diego-VirtualBox:~/Descargas/ticTacToe/ticTacToe$ javadoc -d ./doc -author -version -private -linksource ./src/es/unileon/prg1/ticTacToe/*.java
+
+7	Ejecutar desde el directorio: diego@diego-VirtualBox:~/Descargas/ticTacToe/ticTacToe$ java -classpath ./classes es.unileon.prg1.ticTacToe.MainTicTacToe 
+
+8	Ejecutar aplicacion después de incluir imágenes: diego@diego-VirtualBox:~/Descargas/ticTacToe/ticTacToe$ java -classpath ./classes es.unileon.prg1.ticTacToe.MainTicTacToe  
